@@ -1,0 +1,67 @@
+{
+  "name": "Iron Man Mark II",
+  "background": "minecraft:textures/block/iron_block.png",
+  "icon": "minecraft:iron_chestplate",
+  "abilities": {
+
+    "flight": {
+      "type": "palladium:attribute_modifier",
+      "title": "Propulsion Flight",
+      "attribute": "palladium:flight_speed",
+      "list_index": 0,
+      "amount": 0.7
+    },
+
+    "flight_flexibility": {
+      "type": "palladium:attribute_modifier",
+      "attribute": "palladium:flight_flexibility",
+      "hidden": true,
+      "amount": 5
+    },
+
+    "heroic_flight_type": {
+      "type": "palladium:attribute_modifier",
+      "attribute": "palladium:heroic_flight_type",
+      "hidden": true,
+      "amount": 1
+    },
+
+    "armor": {
+      "type": "palladium:attribute_modifier",
+      "title": "Titanium-Chrome Alloy Armor",
+      "attribute": "minecraft:generic.armor",
+      "list_index": 1,
+      "amount": 20
+    },
+
+    "armor_toughness": {
+      "type": "palladium:attribute_modifier",
+      "attribute": "minecraft:generic.armor_toughness",
+      "hidden": true,
+      "amount": 10
+    },
+
+    "knockback_resistance": {
+      "type": "palladium:attribute_modifier",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "hidden": true,
+      "amount": 1.0
+    },
+
+    "enhanced_strength": {
+      "type": "palladium:attribute_modifier",
+      "title": "Enhanced Strength",
+      "attribute": "minecraft:generic.attack_damage",
+      "list_index": 2,
+      "amount": 6
+    },
+
+    "fall_damage_immunity": {
+      "type": "palladium:damage_immunity",
+      "title": "Impact Protection",
+      "list_index": 3,
+      "damage_types": "minecraft:fall"
+    }
+
+  }
+}
