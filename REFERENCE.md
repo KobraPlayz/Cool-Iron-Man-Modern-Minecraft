@@ -48,7 +48,7 @@ iron_arsenal/
   "dependencies": {
     "common": {
       "minecraft": ">=1.20.1",
-      "palladium": ">=4.0.0.0"
+      "palladium": ">=4.5.0"
     }
   }
 }
